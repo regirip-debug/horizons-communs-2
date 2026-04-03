@@ -40,14 +40,12 @@ export function Footer() {
 
           <div>
             <h4 className="font-semibold text-white mb-3">Contact</h4>
-            <Link
-              href="https://calendly.com/regirip/30min?month=2026-04"
-              target="_blank"
-              rel="noopener noreferrer"
+            <a
+              href="mailto:contact@horicoms.com"
               className="inline-block px-5 py-2.5 bg-beige text-petrol-dark font-semibold rounded-lg hover:bg-beige-warm transition-colors text-sm"
             >
-              Prendre rendez-vous
-            </Link>
+              contact@horicoms.com
+            </a>
 
             <h4 className="font-semibold text-white mb-3 mt-6">Informations</h4>
             <ul className="space-y-2 text-sm">
