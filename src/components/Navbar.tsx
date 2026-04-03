@@ -33,17 +33,14 @@ export function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link href="#accueil" className="flex items-center gap-2.5">
+          <Link href="#accueil" className="flex items-center">
             <Image
               src="/images/logo.svg"
               alt="Horizons Communs"
-              width={80}
-              height={40}
-              className="h-10 md:h-12 w-auto"
+              width={160}
+              height={120}
+              className="h-12 md:h-14 w-auto"
             />
-            <span className="font-serif text-xl md:text-2xl font-bold text-petrol tracking-tight">
-              Horizons Communs
-            </span>
           </Link>
 
           {/* Desktop nav */}
