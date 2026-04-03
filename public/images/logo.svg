@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <!-- H gauche (petrol/teal) -->
+  <path d="M20 10 L20 150 L40 150 L40 90 L80 90 L80 150 L100 150 L100 10 L80 10 L80 70 L40 70 L40 10 Z" fill="#1a5266" />
+  <!-- C lié au H (petrol) -->
+  <path d="M85 10 L120 10 L120 30 L100 30 L100 130 L120 130 L120 150 L85 150" fill="#1a5266" />
+  <!-- H droite (doré/amber) décalé -->
+  <path d="M100 10 L100 150 L120 150 L120 90 L160 90 L160 150 L180 150 L180 10 L160 10 L160 70 L120 70 L120 10 Z" fill="#d4a017" opacity="0.9" />
+</svg>

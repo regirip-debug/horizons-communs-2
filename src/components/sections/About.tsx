@@ -1,3 +1,5 @@
+import { PhotoPortrait } from "@/components/PhotoPortrait";
+
 export function About() {
   return (
     <section id="a-propos" className="py-20 md:py-28">
@@ -10,20 +12,9 @@ export function About() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Photo placeholder */}
+          {/* Photo */}
           <div className="relative">
-            <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-petrol/10 to-beige/30 border border-beige/50 flex items-center justify-center overflow-hidden">
-              <div className="text-center p-8">
-                <div className="w-24 h-24 rounded-full bg-petrol/15 mx-auto mb-4 flex items-center justify-center">
-                  <svg className="w-12 h-12 text-petrol/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                  </svg>
-                </div>
-                <p className="text-sm text-charcoal/40 italic">
-                  Photo professionnelle
-                </p>
-              </div>
-            </div>
+            <PhotoPortrait />
             {/* Decorative element */}
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-beige/40 rounded-2xl -z-10" />
           </div>

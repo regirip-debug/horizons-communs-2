@@ -2,12 +2,14 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { href: "#accueil", label: "Accueil" },
   { href: "#a-propos", label: "À Propos" },
   { href: "#offres", label: "Offres" },
   { href: "#methode", label: "Méthode" },
+  { href: "#conferences", label: "Conférences" },
   { href: "#references", label: "Références" },
   { href: "#blog", label: "Blog" },
 ];
@@ -32,15 +34,21 @@ export function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link
-            href="#accueil"
-            className="font-serif text-xl md:text-2xl font-bold text-petrol tracking-tight"
-          >
-            Horizons Communs
+          <Link href="#accueil" className="flex items-center gap-2.5">
+            <Image
+              src="/images/logo.svg"
+              alt="Horizons Communs"
+              width={40}
+              height={32}
+              className="h-8 w-auto"
+            />
+            <span className="font-serif text-xl md:text-2xl font-bold text-petrol tracking-tight">
+              Horizons Communs
+            </span>
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-5">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -61,7 +69,7 @@ export function Navbar() {
           {/* Mobile burger */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="md:hidden p-2 text-charcoal"
+            className="lg:hidden p-2 text-charcoal"
             aria-label="Menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -76,7 +84,7 @@ export function Navbar() {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div className="md:hidden pb-4 border-t border-beige">
+          <div className="lg:hidden pb-4 border-t border-beige">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
