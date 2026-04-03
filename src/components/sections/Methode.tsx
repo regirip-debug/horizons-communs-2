@@ -38,8 +38,8 @@ export function Methode() {
 
         {/* Timeline */}
         <div className="relative">
-          {/* Connection line */}
-          <div className="hidden md:block absolute top-1/2 left-0 right-0 h-0.5 bg-beige -translate-y-1/2" />
+          {/* Connection line — aligned to center of 64px circles (top: 32px) */}
+          <div className="hidden md:block absolute top-8 left-[12.5%] right-[12.5%] h-0.5 bg-beige" />
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {steps.map((step) => (
