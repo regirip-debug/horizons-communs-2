@@ -6,7 +6,6 @@ import { Differentiation } from "@/components/sections/Differentiation";
 import { About } from "@/components/sections/About";
 import { Offres } from "@/components/sections/Offres";
 import { Methode } from "@/components/sections/Methode";
-import { Conferences } from "@/components/sections/Conferences";
 import { References } from "@/components/sections/References";
 import { Blog } from "@/components/sections/Blog";
 import { Contact } from "@/components/sections/Contact";
@@ -22,7 +21,6 @@ export default function Home() {
       <About />
       <Offres />
       <Methode />
-      <Conferences />
       <References />
       <Blog />
       <Contact />

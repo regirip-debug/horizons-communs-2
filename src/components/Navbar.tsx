@@ -9,7 +9,6 @@ const navLinks = [
   { href: "#a-propos", label: "À Propos" },
   { href: "#offres", label: "Offres" },
   { href: "#methode", label: "Méthode" },
-  { href: "#conferences", label: "Conférences" },
   { href: "#references", label: "Références" },
   { href: "#blog", label: "Blog" },
 ];
