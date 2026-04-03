@@ -19,13 +19,15 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Horizons Communs | Consultant en transformation des organisations engagées",
   description:
-    "Formation, management de transition et structuration pour associations, tiers-lieux et collectivités. Transformez vos organisations sans perdre leur âme.",
+    "Formation, management de transition, conférences et structuration pour associations, tiers-lieux, collectivités et entreprises. Transformez vos organisations sans perdre leur âme.",
   keywords: [
     "consultant",
+    "conférencier",
     "management de transition",
     "associations",
     "tiers-lieux",
     "collectivités",
+    "entreprises",
     "insertion",
     "structuration",
     "formation",

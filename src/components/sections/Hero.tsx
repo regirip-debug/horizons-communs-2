@@ -19,7 +19,7 @@ export function Hero() {
           <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-petrol/10 rounded-full mb-8">
             <span className="w-2 h-2 bg-petrol rounded-full" />
             <span className="text-xs font-medium text-petrol uppercase tracking-wider">
-              Consultant &middot; Formateur &middot; Manager de transition
+              Consultant &middot; Formateur &middot; Conférencier &middot; Manager de transition
             </span>
           </div>
 
@@ -30,8 +30,8 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 text-lg sm:text-xl text-charcoal/70 leading-relaxed max-w-2xl">
-            Formation, management de transition et structuration pour
-            associations, tiers-lieux et collectivités.
+            Formation, management de transition, conférences et structuration
+            pour associations, tiers-lieux, collectivités et entreprises.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
