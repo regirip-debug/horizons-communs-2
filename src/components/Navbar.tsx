@@ -32,15 +32,15 @@ export function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20 md:h-24">
+        <div className="flex items-center justify-between h-28 md:h-32">
           {/* Logo + Nom */}
           <Link href="#accueil" className="flex items-center gap-3 flex-shrink-0">
             <Image
               src="/images/logo.svg"
               alt="Horizons Communs"
-              width={200}
-              height={150}
-              className="h-16 md:h-20 w-auto"
+              width={320}
+              height={240}
+              className="h-24 md:h-28 w-auto"
             />
             <span className="font-serif text-xl md:text-2xl font-bold text-petrol tracking-tight">
               Horizons Communs
