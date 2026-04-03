@@ -35,24 +35,16 @@ export function PhotoPortrait() {
   }
 
   return (
-    <>
-      <div className="aspect-[4/5] rounded-2xl border border-beige/50 overflow-hidden bg-gradient-to-br from-petrol/10 to-beige/30 relative">
-        <Image
-          src="/images/photo.png"
-          alt="Régis Pio - Consultant en transformation des organisations engagées"
-          fill
-          className="object-cover object-top"
-          sizes="(max-width: 1024px) 100vw, 50vw"
-          priority
-          onError={() => setImgError(true)}
-        />
-      </div>
-      <div className="absolute bottom-4 left-4 right-4 bg-petrol/90 backdrop-blur-sm rounded-xl p-3">
-        <p className="text-white font-semibold text-sm">Régis Pio</p>
-        <p className="text-white/70 text-xs">
-          Co-fondateur, Ressourcerie La Mine
-        </p>
-      </div>
-    </>
+    <div className="aspect-[4/5] rounded-2xl border border-beige/50 overflow-hidden bg-gradient-to-br from-petrol/10 to-beige/30 relative">
+      <Image
+        src="/images/photo.png"
+        alt="Régis Pio - Consultant en transformation des organisations engagées"
+        fill
+        className="object-contain object-center scale-90"
+        sizes="(max-width: 1024px) 100vw, 50vw"
+        priority
+        onError={() => setImgError(true)}
+      />
+    </div>
   );
 }
