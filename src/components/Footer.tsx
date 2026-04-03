@@ -41,7 +41,9 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-3">Contact</h4>
             <Link
-              href="#contact"
+              href="https://calendly.com/regirip/30min?month=2026-04"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-5 py-2.5 bg-beige text-petrol-dark font-semibold rounded-lg hover:bg-beige-warm transition-colors text-sm"
             >
               Prendre rendez-vous

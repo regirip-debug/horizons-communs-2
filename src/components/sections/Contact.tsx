@@ -17,7 +17,7 @@ export function Contact() {
         </p>
 
         <Link
-          href="https://calendly.com"
+          href="https://calendly.com/regirip/30min?month=2026-04"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-10 inline-flex items-center justify-center px-10 py-4 bg-beige text-petrol-dark text-lg font-bold rounded-xl hover:bg-beige-warm transition-all hover:shadow-lg hover:shadow-beige/20 hover:scale-105"

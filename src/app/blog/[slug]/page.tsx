@@ -145,7 +145,9 @@ export default async function BlogPostPage({
             Discutons de votre situation spécifique.
           </p>
           <Link
-            href="/#contact"
+            href="https://calendly.com/regirip/30min?month=2026-04"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-petrol text-white font-semibold rounded-lg hover:bg-petrol-dark transition-colors"
           >
             Prendre rendez-vous

@@ -36,7 +36,9 @@ export function Hero() {
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <Link
-              href="#contact"
+              href="https://calendly.com/regirip/30min?month=2026-04"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-7 py-3.5 bg-petrol text-white font-semibold rounded-lg hover:bg-petrol-dark transition-all hover:shadow-lg hover:shadow-petrol/20"
             >
               Prendre rendez-vous

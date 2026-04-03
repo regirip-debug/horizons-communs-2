@@ -59,7 +59,9 @@ export function Navbar() {
               </Link>
             ))}
             <Link
-              href="#contact"
+              href="https://calendly.com/regirip/30min?month=2026-04"
+              target="_blank"
+              rel="noopener noreferrer"
               className="ml-2 px-5 py-2.5 bg-petrol text-white text-sm font-semibold rounded-lg hover:bg-petrol-dark transition-colors"
             >
               Prendre RDV
@@ -96,7 +98,9 @@ export function Navbar() {
               </Link>
             ))}
             <Link
-              href="#contact"
+              href="https://calendly.com/regirip/30min?month=2026-04"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
               className="block mt-2 text-center px-5 py-2.5 bg-petrol text-white font-semibold rounded-lg"
             >
