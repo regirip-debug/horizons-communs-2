@@ -48,6 +48,25 @@ export function Footer() {
             >
               Prendre rendez-vous
             </Link>
+
+            <h4 className="font-semibold text-white mb-3 mt-6">Informations</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/faq" className="hover:text-beige transition-colors">
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link href="/cgv" className="hover:text-beige transition-colors">
+                  Conditions Générales de Vente
+                </Link>
+              </li>
+              <li>
+                <Link href="/politique-de-confidentialite" className="hover:text-beige transition-colors">
+                  Politique de confidentialité
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
 
