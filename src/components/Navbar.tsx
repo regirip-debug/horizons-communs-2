@@ -42,8 +42,9 @@ export function Navbar() {
               height={240}
               className="h-24 md:h-28 w-auto"
             />
-            <span className="font-serif text-xl md:text-2xl font-bold text-petrol tracking-tight">
-              Horizons Communs
+            <span className="font-serif text-xl md:text-2xl font-bold tracking-tight">
+              <span className="text-petrol">Horizons</span>{" "}
+              <span style={{ color: "#B8860B" }}>Communs</span>
             </span>
           </Link>
 
