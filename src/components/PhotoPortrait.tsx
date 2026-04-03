@@ -35,12 +35,13 @@ export function PhotoPortrait() {
   }
 
   return (
-    <div className="aspect-[4/5] rounded-2xl border border-beige/50 overflow-hidden bg-gradient-to-br from-petrol/10 to-beige/30 relative">
+    <div className="rounded-2xl border border-beige/50 overflow-hidden bg-gradient-to-br from-petrol/10 to-beige/30">
       <Image
         src="/images/photo.png"
         alt="Régis Pio - Consultant en transformation des organisations engagées"
-        fill
-        className="object-contain object-center scale-90"
+        width={600}
+        height={600}
+        className="w-full h-auto"
         sizes="(max-width: 1024px) 100vw, 50vw"
         priority
         onError={() => setImgError(true)}
