@@ -31,19 +31,23 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-36 md:h-44">
-          <Link href="#accueil" className="flex items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20 md:h-24">
+          {/* Logo + Nom */}
+          <Link href="#accueil" className="flex items-center gap-3 flex-shrink-0">
             <Image
               src="/images/logo.svg"
               alt="Horizons Communs"
-              width={480}
-              height={360}
-              className="h-32 md:h-40 w-auto"
+              width={200}
+              height={150}
+              className="h-16 md:h-20 w-auto"
             />
+            <span className="font-serif text-xl md:text-2xl font-bold text-petrol tracking-tight">
+              Horizons Communs
+            </span>
           </Link>
 
-          {/* Desktop nav */}
+          {/* Desktop nav — centré */}
           <div className="hidden lg:flex items-center gap-5">
             {navLinks.map((link) => (
               <Link
