@@ -26,7 +26,7 @@ export function Hero() {
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-petrol-dark leading-tight">
             Transformer vos organisations
             <br />
-            <span className="text-petrol">sans perdre leur âme</span>
+            <span style={{ color: "#B8860B" }}>sans perdre leur âme</span>
           </h1>
 
           <p className="mt-6 text-lg sm:text-xl text-charcoal/70 leading-relaxed max-w-2xl">
