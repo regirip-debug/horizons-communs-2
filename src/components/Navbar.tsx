@@ -35,7 +35,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="#accueil" className="flex items-center gap-2.5">
             <Image
-              src="/images/logo.svg"
+              src="/images/logo.png"
               alt="Horizons Communs"
               width={40}
               height={32}
