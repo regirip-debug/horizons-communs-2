@@ -37,9 +37,9 @@ export function Navbar() {
             <Image
               src="/images/logo.svg"
               alt="Horizons Communs"
-              width={160}
-              height={120}
-              className="h-12 md:h-14 w-auto"
+              width={240}
+              height={180}
+              className="h-16 md:h-20 w-auto"
             />
           </Link>
 
