@@ -35,11 +35,11 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="#accueil" className="flex items-center gap-2.5">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.svg"
               alt="Horizons Communs"
-              width={48}
+              width={80}
               height={40}
-              className="h-10 md:h-11 w-auto"
+              className="h-10 md:h-12 w-auto"
             />
             <span className="font-serif text-xl md:text-2xl font-bold text-petrol tracking-tight">
               Horizons Communs

@@ -1,8 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
-  <!-- H gauche (petrol/teal) -->
-  <path d="M20 10 L20 150 L40 150 L40 90 L80 90 L80 150 L100 150 L100 10 L80 10 L80 70 L40 70 L40 10 Z" fill="#1a5266" />
-  <!-- C lié au H (petrol) -->
-  <path d="M85 10 L120 10 L120 30 L100 30 L100 130 L120 130 L120 150 L85 150" fill="#1a5266" />
-  <!-- H droite (doré/amber) décalé -->
-  <path d="M100 10 L100 150 L120 150 L120 90 L160 90 L160 150 L180 150 L180 10 L160 10 L160 70 L120 70 L120 10 Z" fill="#d4a017" opacity="0.9" />
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 500" style="enable-background:new 0 0 1000 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#004C54;}
+	.st1{fill:#B8860B;}
+</style>
+<g>
+	<path class="st0" d="M379.7,113h211.7v101h-211.7V113z M379.7,314h211.7v101H379.7V314z M211.7,113h129.4v30.4h-99v252.3h99v30.4
+		H211.7V113z M631.7,113h113.7v30.4h-83.3v70.6h83.3v30.4h-83.3v70.6h83.3v30.4H631.7V113z"/>
+	
+	<path class="st1" d="M439.7,173.5h151.7v30.4h-121.3v50.2h121.3v30.4H470.1v50.2h121.3v30.4H439.7V173.5z M660.1,213.9H763.4v30.4
+		h-72.9v50.2h72.9v30.4H660.1V213.9z M703.1,173.5h60.3v30.4h-30.4v131.1h30.4v30.4h-60.3V173.5z"/>
+	
+	<path class="st0" d="M523.6,187.9l-30.4,14.6v21.5l30.4-14.6V187.9z M523.6,328.4l-30.4,14.6v21.5l30.4-14.6V328.4z M523.6,213.9
+		L523.6,213.9L523.6,213.9z M523.6,354.4L523.6,354.4L523.6,354.4z"/>
+</g>
 </svg>
