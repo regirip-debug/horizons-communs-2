@@ -38,7 +38,7 @@ export function PhotoPortrait() {
     <>
       <div className="aspect-[4/5] rounded-2xl border border-beige/50 overflow-hidden bg-gradient-to-br from-petrol/10 to-beige/30 relative">
         <Image
-          src="/images/photo.jpg"
+          src="/images/photo.png"
           alt="Régis Pio - Consultant en transformation des organisations engagées"
           fill
           className="object-cover object-top"
