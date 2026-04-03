@@ -24,11 +24,17 @@ export function About() {
             <h3 className="font-serif text-2xl font-bold text-petrol-dark mb-6">
               Mon parcours
             </h3>
+            <p className="text-charcoal/70 leading-relaxed mb-4">
+              Je mets en œuvre et dirige des lieux de vie conçus pour maximiser
+              l&apos;impact social, allant de la phase de conceptualisation à
+              l&apos;exploitation quotidienne.
+            </p>
             <p className="text-charcoal/70 leading-relaxed mb-6">
-              Je suis coordinateur, directeur de tiers-lieu et encadrant
-              technique en insertion. Depuis plusieurs années, je développe des
-              projets à fort impact social : ateliers chantiers d&apos;insertion,
-              tiers-lieux hybrides, projets culturels et entrepreneuriaux.
+              En tant que professionnel du secteur, je développe depuis plusieurs
+              années des projets qui allient utilité sociale et innovation. Mon
+              expérience s&apos;articule autour de la création d&apos;ateliers
+              chantiers d&apos;insertion, de tiers-lieux hybrides, ainsi que de
+              projets culturels et entrepreneuriaux.
             </p>
 
             <div className="p-5 bg-petrol/5 rounded-xl border-l-4 border-petrol mb-8">
