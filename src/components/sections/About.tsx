@@ -83,7 +83,7 @@ export function About() {
 
             {/* LinkedIn */}
             <a
-              href="https://linkedin.com/in/regispio"
+              href="https://www.linkedin.com/in/r%C3%A9gis-pio-240664400/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2.5 px-5 py-2.5 bg-[#0A66C2] text-white font-semibold rounded-lg hover:bg-[#004182] transition-colors"
