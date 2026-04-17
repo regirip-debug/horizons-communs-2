@@ -18,7 +18,7 @@ const packages = [
       "Analyse documentaire (statuts, comptes, org, stratégie)",
       "Rapport de diagnostic détaillé",
       "Recommandations priorisées et réalistes",
-      "Proposition d'accompagnement tailored"
+      "Proposition d'accompagnement sur mesure"
     ],
     outcome: "Clarté sur vos vrais défis + feuille de route actuelle",
     highlight: true,
