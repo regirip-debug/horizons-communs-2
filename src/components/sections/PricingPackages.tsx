@@ -71,6 +71,29 @@ const packages = [
     highlight: false,
     cta: "Explorer une direction de transition"
   },
+  {
+    id: "conferences",
+    duration: "À la demande",
+    title: "Conférences & Interventions",
+    subtitle: "Inspirer et outiller vos équipes",
+    price: "Forfait par intervention",
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+      </svg>
+    ),
+    description: "Partage d'expérience terrain sur l'ESS, les tiers-lieux, l'IA et la transformation organisationnelle.",
+    includes: [
+      "Préparation adaptée à votre contexte et audience",
+      "Keynote ou table ronde interactive",
+      "Atelier participatif (sur demande)",
+      "Support de présentation professionnel",
+      "Q&A et moments d'échange"
+    ],
+    outcome: "Équipes inspirées et outillées pour agir",
+    highlight: false,
+    cta: "Réserver une intervention"
+  },
 ];
 
 export function PricingPackages() {
@@ -82,15 +105,15 @@ export function PricingPackages() {
             <span className="text-xs font-semibold text-petrol uppercase tracking-wider">Offres structurées</span>
           </div>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-petrol-dark">
-            Trois chemins pour transformer votre structure
+            Quatre offres pour accompagner votre structure
           </h2>
           <p className="mt-4 text-lg text-charcoal/60 max-w-2xl mx-auto">
-            Chaque situation est unique. Voici comment nous pouvons travailler ensemble.
+            Diagnostic, structuration, direction ou conférences. Chaque situation a sa solution.
           </p>
           <div className="mt-3 w-16 h-1 bg-petrol mx-auto rounded-full" />
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
           {packages.map((pkg) => (
             <div
               key={pkg.id}
