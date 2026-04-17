@@ -5,7 +5,6 @@ import { Services } from "@/components/sections/Services";
 import { PricingPackages } from "@/components/sections/PricingPackages";
 import { Differentiation } from "@/components/sections/Differentiation";
 import { About } from "@/components/sections/About";
-import { Offres } from "@/components/sections/Offres";
 import { Methode } from "@/components/sections/Methode";
 import { References } from "@/components/sections/References";
 import { Blog } from "@/components/sections/Blog";
@@ -21,7 +20,6 @@ export default function Home() {
       <PricingPackages />
       <Differentiation />
       <About />
-      <Offres />
       <Methode />
       <References />
       <Blog />
