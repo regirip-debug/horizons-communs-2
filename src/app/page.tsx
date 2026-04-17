@@ -2,6 +2,7 @@ import { Hero } from "@/components/sections/Hero";
 import { Promise } from "@/components/sections/Promise";
 import { Audience } from "@/components/sections/Audience";
 import { Services } from "@/components/sections/Services";
+import { PricingPackages } from "@/components/sections/PricingPackages";
 import { Differentiation } from "@/components/sections/Differentiation";
 import { About } from "@/components/sections/About";
 import { Offres } from "@/components/sections/Offres";
@@ -17,6 +18,7 @@ export default function Home() {
       <Promise />
       <Audience />
       <Services />
+      <PricingPackages />
       <Differentiation />
       <About />
       <Offres />

@@ -85,13 +85,16 @@ export function Services() {
         </div>
 
         <div className="mt-12 text-center">
+          <p className="text-charcoal/60 mb-6 font-medium">
+            Prêt à explorer comment ces offres peuvent vous aider ?
+          </p>
           <Link
-            href="#offres"
-            className="inline-flex items-center text-petrol font-semibold hover:text-petrol-dark transition-colors group"
+            href="#offres-packagees"
+            className="inline-flex items-center justify-center px-8 py-3.5 bg-petrol text-white font-semibold rounded-lg hover:bg-petrol-dark transition-all hover:shadow-lg"
           >
-            Voir le détail des offres
+            Découvrir les offres packagées
             <svg
-              className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform"
+              className="ml-2 w-4 h-4"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

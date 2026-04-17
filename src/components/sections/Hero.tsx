@@ -41,7 +41,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-7 py-3.5 bg-petrol text-white font-semibold rounded-lg hover:bg-petrol-dark transition-all hover:shadow-lg hover:shadow-petrol/20"
             >
-              Prendre rendez-vous
+              Réserver un diagnostic
               <svg
                 className="ml-2 w-4 h-4"
                 fill="none"
@@ -57,10 +57,10 @@ export function Hero() {
               </svg>
             </Link>
             <Link
-              href="#offres"
+              href="#offres-packagees"
               className="inline-flex items-center justify-center px-7 py-3.5 border-2 border-petrol text-petrol font-semibold rounded-lg hover:bg-petrol hover:text-white transition-all"
             >
-              Découvrir nos offres
+              Voir nos offres
             </Link>
           </div>
         </div>

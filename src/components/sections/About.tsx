@@ -54,13 +54,14 @@ export function About() {
             </p>
 
             <h3 className="font-serif text-xl font-bold text-petrol-dark mb-4">
-              Mon rôle :
+              Ce que je vous aide à accomplir :
             </h3>
             <ul className="space-y-3">
               {[
-                "Traduire vos valeurs en organisation efficace",
-                "Transformer vos idées en systèmes durables",
-                "Renforcer vos équipes sans les dénaturer",
+                "Transformer vos défis structurels en atouts compétitifs",
+                "Passer de la survie à la pérennité (modèle économique solide)",
+                "Renforcer vos équipes sans dénaturer votre culture",
+                "Rendre votre gouvernance plus claire et inclusive",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <svg
