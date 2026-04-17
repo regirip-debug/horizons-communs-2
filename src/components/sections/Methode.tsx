@@ -2,7 +2,7 @@ const steps = [
   {
     number: "01",
     title: "Diagnostic réel",
-    subtitle: "(pas bullshit)",
+    subtitle: "(pas de bullshit)",
     description: "Immersion terrain, compréhension des tensions.",
   },
   {
