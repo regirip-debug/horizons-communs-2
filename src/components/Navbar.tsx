@@ -60,10 +60,19 @@ export function Navbar() {
               </Link>
             ))}
             <Link
+              href="/diagnostic"
+              className="ml-2 flex items-center gap-2 px-5 py-2.5 bg-beige-warm text-petrol-dark text-sm font-bold rounded-lg hover:bg-beige transition-all border border-petrol/15 shadow-sm hover:shadow"
+            >
+              <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth={2.2} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              Diagnostic Flash Gratuit
+            </Link>
+            <Link
               href="https://www.linkedin.com/in/r%C3%A9gis-pio-240664400/"
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-2 flex items-center gap-2 px-4 py-2.5 bg-blue-50 text-[#0A66C2] text-sm font-semibold rounded-lg hover:bg-blue-100 transition-colors"
+              className="ml-1 flex items-center gap-2 px-4 py-2.5 bg-blue-50 text-[#0A66C2] text-sm font-semibold rounded-lg hover:bg-blue-100 transition-colors"
             >
               <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
@@ -74,7 +83,7 @@ export function Navbar() {
               href="https://calendly.com/regirip/30min?month=2026-04"
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-2 px-5 py-2.5 bg-petrol text-white text-sm font-semibold rounded-lg hover:bg-petrol-dark transition-colors"
+              className="ml-1 px-5 py-2.5 bg-petrol text-white text-sm font-semibold rounded-lg hover:bg-petrol-dark transition-colors"
             >
               Prendre RDV
             </Link>
@@ -109,25 +118,37 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <div className="flex gap-2 mt-4">
+            <div className="mt-4 space-y-2">
               <Link
-                href="https://www.linkedin.com/in/r%C3%A9gis-pio-240664400/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/diagnostic"
                 onClick={() => setMobileOpen(false)}
-                className="flex-1 text-center px-5 py-2.5 bg-blue-50 text-[#0A66C2] font-semibold rounded-lg hover:bg-blue-100 transition-colors"
+                className="flex items-center justify-center gap-2 w-full px-5 py-3 bg-beige-warm text-petrol-dark font-bold rounded-lg hover:bg-beige transition-all border border-petrol/15 shadow-sm"
               >
-                LinkedIn
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.2} viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                Diagnostic Flash Gratuit
               </Link>
-              <Link
-                href="https://calendly.com/regirip/30min?month=2026-04"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileOpen(false)}
-                className="flex-1 text-center px-5 py-2.5 bg-petrol text-white font-semibold rounded-lg hover:bg-petrol-dark transition-colors"
-              >
-                Prendre RDV
-              </Link>
+              <div className="flex gap-2">
+                <Link
+                  href="https://www.linkedin.com/in/r%C3%A9gis-pio-240664400/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMobileOpen(false)}
+                  className="flex-1 text-center px-5 py-2.5 bg-blue-50 text-[#0A66C2] font-semibold rounded-lg hover:bg-blue-100 transition-colors"
+                >
+                  LinkedIn
+                </Link>
+                <Link
+                  href="https://calendly.com/regirip/30min?month=2026-04"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setMobileOpen(false)}
+                  className="flex-1 text-center px-5 py-2.5 bg-petrol text-white font-semibold rounded-lg hover:bg-petrol-dark transition-colors"
+                >
+                  Prendre RDV
+                </Link>
+              </div>
             </div>
           </div>
         )}
