@@ -111,6 +111,31 @@ export function PricingPackages() {
             Diagnostic, structuration, direction ou conférences. Chaque situation a sa solution.
           </p>
           <div className="mt-3 w-16 h-1 bg-petrol mx-auto rounded-full" />
+
+          {/* Diagnostic Flash CTA */}
+          <div className="mt-10 max-w-2xl mx-auto p-6 md:p-7 bg-beige-warm/40 border border-petrol/15 rounded-2xl">
+            <p className="text-sm font-semibold text-petrol uppercase tracking-wider mb-2">
+              Pas sûr de l&apos;offre qu&apos;il vous faut ?
+            </p>
+            <p className="text-charcoal/80 mb-5">
+              Commencez par le <strong className="text-petrol-dark">Diagnostic Flash Gratuit</strong>&nbsp;: 14 questions, 5 minutes,
+              score instantané et recommandation personnalisée.
+            </p>
+            <Link
+              href="https://tally.so/r/LZEbl1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-petrol text-white font-bold rounded-lg hover:bg-petrol-dark hover:shadow-lg transition-all"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2.2} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              Faire le Diagnostic Flash Gratuit
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
